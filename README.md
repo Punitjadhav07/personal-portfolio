@@ -9,7 +9,7 @@ Welcome to my personal portfolio! This is a responsive and interactive website b
 	•	About Me and Skills section
 	•	Contact form (static or integrated with email service)
 	•	Downloadable resume button
-	•	Light/Dark mode toggle (optional)
+	
 
 🛠️ Tech Stack
 	•	Frontend:
