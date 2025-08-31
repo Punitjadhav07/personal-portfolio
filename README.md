@@ -16,3 +16,5 @@ Welcome to my personal portfolio! This is a responsive and interactive website b
 	•	HTML5
 	•	CSS
 	•	JavaScript 
+ 	•   React Js
+  
