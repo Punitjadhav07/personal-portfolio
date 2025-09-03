@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This is a responsive and interactive website built using HTML, CSS, and JavaScript to showcase my skills, projects, and experience as a web developer.
 
-🚀 Features
+ Features
 	•	Responsive design for desktop
 	•	Smooth scroll navigation
 	•	Project section with links and hover effects
@@ -11,7 +11,7 @@ Welcome to my personal portfolio! This is a responsive and interactive website b
 	•	Downloadable resume button
 	
 
-🛠️ Tech Stack
+ Tech Stack
 	•	Frontend:
 	•	HTML5
 	•	CSS
