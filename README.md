@@ -1,6 +1,6 @@
 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio! This is a responsive and interactive website built using HTML, CSS, and JavaScript to showcase my skills, projects, and experience as a web developer.
+Welcome to my personal portfolio! This is a responsive and interactive website built using HTML, CSS, and JavaScript to showcase my skills, projects, and experience as a web developer
 
  Features
 	•	Responsive design for desktop
