@@ -358,6 +358,7 @@ hr {
 }
 .projects {
     display: flex;
+    padding: 20px;
     margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -378,13 +379,13 @@ hr {
     border-radius: 16px;
     background-color: #f1f1f1;
     color: black;
-    padding: 16px;
+    padding: 24px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     background-color: #f1f1f1;
     /* border: 2px solid red; */
     border-radius: 16px;
-    padding: 12px;
-    padding-bottom: 28px;
+    padding: 20px;
+    padding-bottom: 32px;
 
     
     display: flex;
@@ -393,13 +394,15 @@ hr {
     align-items: center;
 }
 .card h2{
+    font-size: 24px;
     margin-top: 15px;
 }
 .card p{
     font-weight: 400px;
     font-size: 16px;
     line-height: 24px;
-
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 
@@ -453,21 +456,16 @@ hr {
 }
 
 .Experience_content {
-    display: flex;
-    gap: 30px;
-    justify-content: space-evenly;
+    display: block;
 }
 
 .Company1 {
-    display: flex;
-    gap: 0px;
-    border-radius: 16px;
-    background: color #f1f1f1;
-    width: 590px;
+    display: block;
+    width: 100%;
     color: black;
-    padding: 16px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    justify-content: space-evenly;
+    padding: 0;
+    box-shadow: none;
+    background-color: transparent;
 }
 .Company1_image{
     width: 296px;
@@ -490,16 +488,18 @@ hr {
 }
 
 .Company1_content{
-    width: 257px;
+    width: 100%;
 }
 
 .Company1_content h2 {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 32px;
 }
 .Company1_content p{
     color: #555555;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .Company2 {
@@ -601,7 +601,7 @@ hr {
     top: 20px;
     bottom: 10px;
     left: 50px;
-    height: 420px;
+    height: 670px;
 }
 
 .list li {
@@ -631,11 +631,18 @@ hr {
     width: 590px;
 }
 
+.certificates h2{
+    font-size: 54px;
+    line-height: 72px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 .certificates p {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
     color: #555555;
 }
 
@@ -645,27 +652,105 @@ hr {
     border-radius: 16px;
 }
 
+.cert-item {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.cert-item h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.cert-item p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 2px 0;
+}
+
 .contact {
     margin-top: 200px;
     background-color: #1D1D1D;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 
 .contact_img img {
-    position: absolute;
     width: 201px;
     height: 200px;
-    left: 730px;
-    top: 4980px;
     border: 5px solid;
-    border-radius: 0px;
+    border-radius: 100px;
 }
 
 .contact_info {
     text-align: center;
     color: white;
+}
+
+.contact-modal{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.contact-modal.show{
+    display: flex;
+}
+
+.contact-modal-content{
+    background: #ffffff;
+    padding: 24px 32px;
+    border-radius: 12px;
+    max-width: 320px;
+    width: 90%;
+    text-align: center;
+}
+
+.contact-modal-content h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.contact-modal-content p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #555555;
+}
+
+.contact-modal-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.contact-modal-buttons button{
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(9, 72, 180);
+    color: #ffffff;
+}
+
+.contact-modal-close{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555555;
 }
 
 .name {
@@ -688,15 +773,11 @@ hr {
 .contact-button{
     background-color: rgb(9, 72, 180);
     color: #f1f1f1;
-    position: absolute;
-    left: 768px;
-    top: 5300px;
-    
+    margin-top: 16px;
     padding: 12px 20px;
     font-size: 15px;
     border: none;
     border-radius: 5px;
-    z-index: 4;
     cursor: pointer;
 } 
 
