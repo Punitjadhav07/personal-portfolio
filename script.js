@@ -35,7 +35,7 @@ const projects = [
     ],
     linkLabel: "GitHub Repo",
     linkUrl: "https://github.com/Punitjadhav07/Expense-Tracker.git",
-    image: "./assets/portfolio.jpeg",
+    image: "./assets/image copy.png",
   },
   {
     title: "E-Commerce Website",
@@ -59,7 +59,7 @@ const projects = [
     ],
     linkLabel: "GitHub Repo",
     linkUrl: "https://github.com/Punitjadhav07/Task_Management",
-    image: "./assets/library.jpeg",
+    image: "./assets/image copy 2.png",
   },
   {
     title: "Medi Bot",
