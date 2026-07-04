@@ -77,14 +77,6 @@ const projects = [
 
 const certifications = [
   {
-    title: "CS50’s Introduction to Computer Science",
-    provider: "Harvard University",
-    date: "Oct 2024",
-    bullets: [
-      "Learned core CS fundamentals, algorithms, data structures, and software engineering.",
-    ],
-  },
-  {
     title: "Java Data Structures & Algorithms + LeetCode",
     provider: "Udemy",
     date: "Sep 2024",
